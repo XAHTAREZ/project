@@ -1,8 +1,5 @@
-let a = 10;
-let b = 10;
+let numberOfFilms;
 
-a++;
-b--;
+numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
 
-console.log(a, b);
-
+console.log(numberOfFilms);
