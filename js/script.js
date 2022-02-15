@@ -1,27 +1,22 @@
-// Первое задание:
+"use strict";
 
-let numberOfFilms;
+const str = "test";
+const arr=[1, 2, 4];
 
-numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?");
+console.log(arr.length);
 
-// Второе задание
+const text = "Barov Denis";
 
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false,
-};
+console.log(text.slice(0, 5));
 
-// Третье задание
+console.log(text.substring(0, 5));
 
-let lookFilm;
-let filmRating;
+console.log(text.substr(6, 5));
 
-lookFilm = prompt("Один из просмотренных фильмов?");
-filmRating = prompt("На сколько оцените его?");
+const num = 12.2;
 
-personalMovieDB.movies = `${lookFilm} : ${filmRating}`;
+console.log(Math.round(num));
 
-console.log(personalMovieDB);
+const test = "12.2px";
+
+console.log(parseInt(test));
